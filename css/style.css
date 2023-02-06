@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.flex-header{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+.nav-flex{
+    width: 60%;
+    background-color: orange;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+nav > div{
+    border: 1px black dashed;
+}
+
+.link{
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+.login{
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+/* /header */
+
+
+/* FIRSTSECTION */
+.header-section {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.pink{
+    width: 700px;
+    background-color: rgb(183, 117, 128);
+    height: 300px;
+    border: 1px black dashed;
+}
+/* ENDFIRSTSECTION */
+
+/* Main */
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.rv{
+    flex-direction: row-reverse;
+}
+.white{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gray {
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.big-gray{
+    height: 750px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Square */
+.blue{
+    height: 350px;
+    width: 60%;
+    background-color: blue;
+}
+.light-pink{
+    height: 350px;
+    width: 40%;
+    background-color: lightpink;
+
+}
+.green{
+    background-color: green;
+    height: 700px;
+    width: 100%;
+}
+
+.square{
+    border:  1px black dashed;
+} 
+/* ending main */
+
+/* footer */
+.first-footer{
+    background-color: rgba(0, 0, 0, 0.697);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.margine{
+    margin-top:5px;
+
+}
+
+.pinkrosa{
+    height: 350px;
+    width: 40%;
+    background-color: pink;
+}
+
+.bluetto{
+    height: 350px;
+    width: 15%;
+    background-color: aquamarine;
+}
+
+.second-footer{
+   background-color: rgba(0, 0, 0, 0.697);
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+}
+.footer-navigation {
+    width: 60%;
+    background-color: rgb(75, 160, 160);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: 5px;
+    background-color: rgb(190, 193, 196);
+    border: 1px black dashed;
+}
